@@ -85,8 +85,8 @@ function Home() {
   return (
     <div
       style={{
-        backgroundColor: darkTheme ? "black" : "white",
-        color: darkTheme ? "white" : "black",
+        backgroundColor: darkTheme ? "grey" : "white",
+        color: darkTheme ? "white" : "grey",
       }}
     >
       <br />
@@ -106,8 +106,8 @@ function Home() {
         <Toggle
           defaultChecked={false}
           icons={{
-            checked: "🌜",
-            unchecked: "🌞",
+            checked: "🌙",
+            unchecked: "☀",
           }}
           onChange={handleDarkThemeChange}
         />
